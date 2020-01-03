@@ -1,7 +1,7 @@
 FROM composer
 
 RUN set -eux; \
-  apk add --no-cache --virtual \
+  apk add --no-cache \
     rsync
 
 RUN composer global require deployer/deployer --dev; \
