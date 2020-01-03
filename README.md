@@ -6,7 +6,7 @@ Example use in .gitlab-ci.yml
 ```yaml
 deploy:
   stage: deploy
-  image: mwienk/php-deployer
+  image: rvanlaak/ci-deployer
   only:
     - tags
   before_script:
