@@ -1,4 +1,3 @@
-# mwienk/php-deployer
 
 This repository contains the Dockerfile for the image that can be used to deploy PHP projects with https://deployer.org.
 Contains the source version of Deployer and the recipes package.
@@ -18,3 +17,5 @@ deploy:
   script:
     - dep deploy ${CI_ENVIRONMENT_NAME} --tag=$CI_COMMIT_REF_NAME
 ```
+
+parent: https://github.com/mwienk/gitlab-ci-deployer
