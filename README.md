@@ -18,4 +18,4 @@ deploy:
     - dep deploy ${CI_ENVIRONMENT_NAME} --tag=$CI_COMMIT_REF_NAME
 ```
 
-parent: https://github.com/mwienk/gitlab-ci-deployer
+forked from https://github.com/mwienk/gitlab-ci-deployer
